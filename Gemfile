@@ -33,7 +33,7 @@ gem 'sqlite3'
 # REFINERY CMS ================================================================
 # Anything you put in here will be overridden when the app gets updated.
 
-gem 'refinerycms',              '= 0.9.9.6'
+gem 'refinerycms',              '= 0.9.9.7'
 
 group :development, :test do
   # gem 'refinerycms-testing',    '~> 0.9.9.5'
@@ -45,7 +45,7 @@ end
 
 
 # Specify additional Refinery CMS Engines here (all optional):
-# gem 'refinerycms-inquiries',    '~> 0.9'
+gem 'refinerycms-inquiries',    '~> 0.9.9.9'
 # gem 'refinerycms-news',         '~> 1.0'
 # gem 'refinerycms-portfolio',    '~> 0.9.9'
 # gem 'refinerycms-theming',      '~> 0.9.9'
