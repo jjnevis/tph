@@ -3,7 +3,7 @@
 body {
   font-family: Georgia, serif;
   background: #DDD;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 18px;
 }
 
@@ -28,6 +28,10 @@ header h1 {
 a {
   color: #312D27;
   text-decoration: none;
+}  
+
+#body_content a {
+  color: #F55639;
 }  
 
 
