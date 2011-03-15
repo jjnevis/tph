@@ -44,6 +44,10 @@ header h1 {
   padding: 40px 0px 20px 0px;
 }
 
+header a:hover {
+  text-decoration: none;
+}
+
 a {
   color: #312D27;
   text-decoration: none;
