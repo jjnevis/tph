@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title></title> 
+    <link href="/stylesheets/application.css?1298460639" media="screen" rel="stylesheet" type="text/css" /> 
+    <script src="/javascripts/jquery.js?1297869129" type="text/javascript"></script> 
+<script src="/javascripts/rails.js?1297869349" type="text/javascript"></script> 
+<script src="/javascripts/application.js?1291802648" type="text/javascript"></script> 
+    <script src="/javascripts/highcharts.js?1297873250" type="text/javascript"></script> 
+    <script src="http://simile.mit.edu/timeline/api/timeline-api.js" type="text/javascript"></script> 
+    <meta name="csrf-param" content="authenticity_token"/> 
+<meta name="csrf-token" content="jYXLJ7pLsmHYyXtNSUmHKl7A4gO+eS1ydIJxxjKRtr0="/> 
+    
+  </head> 
+  <body onload="onLoad();" onresize="onResize();"> 
+<br><br> 
+
+<div id="container" style="height:680px;"></div> 
+<br> 
+ 
+<script type="text/javascript"> 
+//<![CDATA[
+ 
+var chart1;
+$(document).ready(function() {
+  chart1 = new Highcharts.Chart({
+    chart: {
+        renderTo: 'container',
+        defaultSeriesType: 'column'
+    },
+    title: {
+      text: 'Grantown Nursery - Favourite Fruit Graph'
+    },
+    xAxis: {
+        categories: ['Green Apple', 'Red Apple','Banana', 'Orange','Strawberries','Purple Grapes']
+    },
+    
+    plotOptions: {
+        series: {
+            stacking: 'normal'
+        }
+    },
+    
+    series: [
+        {name: 'Maisie', data: [1, 0, 0, 0, 0, 0]},
+        {name: 'Alisha', data: [1, 0, 0, 0, 0, 0]},
+        {name: 'Raith', data: [1, 0, 0, 0, 0, 0]},
+        {name: 'Surya', data: [1, 0, 0, 0, 0, 0]},
+        {name: 'Olivia', data: [0, 1, 0, 0, 0, 0]},
+        {name: 'Faye', data: [0, 0, 1, 0, 0, 0]},
+        {name: 'Kerrie', data: [0, 0, 1, 0, 0, 0]},
+        {name: 'Thea', data: [0, 0, 1, 0, 0, 0]},
+        {name: 'Dacey', data: [0, 0, 1, 0, 0, 0]},
+        {name: 'Nicola', data: [0, 0, 1, 0, 0, 0]},
+        {name: 'Tily', data: [0, 0, 1, 0, 0, 0]},
+        {name: 'Klaudia', data: [0, 0, 1, 0, 0, 0]},
+        {name: 'Natalie', data: [0, 0, 0, 1, 0, 0]},
+        {name: 'Angus', data: [0, 0, 0, 1, 0, 0]},
+        {name: 'Basia', data: [0, 0, 0, 1, 0, 0]},
+        {name: '?', data: [0, 0, 0, 1, 0, 0]},
+        {name: 'Connor', data: [0, 0, 0, 1, 0, 0]},
+        {name: 'Jess', data: [0, 0, 0, 0, 1, 0]},
+        {name: 'Lily', data: [0, 0, 0, 0, 1, 0]},
+        {name: 'Max', data: [0, 0, 0, 0, 1, 0]},
+        {name: 'Schuyler', data: [0, 0, 0, 0, 1, 0]},
+        {name: 'Kada', data: [0, 0, 0, 0, 1, 0]},
+        {name: 'Emilka', data: [0, 0, 0, 0, 1, 0]},
+        {name: 'Finlay', data: [0, 0, 0, 0, 1, 0]},
+        {name: 'Harriet', data: [0, 0, 0, 0, 0, 1]},
+        {name: 'Connor M', data: [0, 0, 0, 0, 0, 1]}
+    ]
+  });
+});
+ 
+ 
+//]]>
+</script> 
+  </body> 
+</html>
