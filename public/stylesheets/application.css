@@ -53,6 +53,16 @@ a {
   text-decoration: none;
 }  
 
+table
+{
+border-collapse:collapse;
+}
+table, td, th
+{
+border:2px solid grey;
+padding: 4px 6px;
+}
+
 #body_content a {
   color: #F55639;
 }  
