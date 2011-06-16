@@ -37,6 +37,7 @@ GEM
     babosa (0.2.2)
     bcrypt-ruby (2.1.4)
     builder (2.1.2)
+    dalli (1.0.5)
     devise (1.1.7)
       bcrypt-ruby (~> 2.1.2)
       warden (~> 1.0.2)
@@ -146,6 +147,7 @@ PLATFORMS
 
 DEPENDENCIES
   aws-s3
+  dalli
   rails (= 3.0.5)
   refinerycms (= 0.9.9.7)
   refinerycms-i18n (~> 0.9.9.11)
